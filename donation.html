@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=ng">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link rel="stylesheet" type="text/css" href="css/nav.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/donation.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/b761d3f3a5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/footer.css" />
+  <title>CrowdHearts|Donation page</title>
+</head>
+
+<body>
+  <!-- header section for nav bar-->
+  <div id="nav-section" class="chinedu-header-section">
+    <header class="chinedu-header">
+      <div class="container">
+        <nav class="chinedu-nav-bar">
+          <a href="#" class="nav-brand"><img src="images/Crowdheart logo.png" alt="logo"></a>
+          <ul class="chinedu-nav-menu">
+            <li class="chinedu-nav-item">
+              <a href="#" class="chinedu-nav-link active">
+                Home </a>
+            </li>
+            <li class="chinedu-nav-item">
+              <a href="#" class="chinedu-nav-link">
+                About us</a>
+            </li>
+            <li class="chinedu-nav-item">
+              <a href="#" class="chinedu-nav-link">
+                Event & News</a>
+            </li>
+            <li class="chinedu-nav-item">
+              <a href="#" class=" chinedu-nav-link">
+                Gallery</a>
+            </li>
+            <li class="chinedu-nav-item">
+              <a href="#footer-content" class="chinedu-nav-link">
+                Contact </a>
+            </li>
+            <a href="#"><button class="chinedu-login-button">
+                Login
+              </button></a>
+          </ul>
+          <div class="chinedu-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!--Nav bar ends here-->
+
+  <!--==Main page begins==-->
+  <section class="main-page">
+    <div class="first-section">
+      <div class="all-container">
+        <div class="first-text">
+          <h1>Help people who are in need</h1>
+          <p>It is not how much we give but how much love we put into giving.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="second-section">
+      <div class="all-container">
+        <div class="second-section-container">
+          <div class="second-text">
+            <h2>Millions of people find it hard to cater for themselves</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ultrices nullam luctus tellus ut imperdiet
+              tristique. Vulputate nascetur vulputate sed sed elementum. Urna, commodo, lobortis elementum
+              pellentesque. Purus tellus in tortor rutrum eget. Ipsum urna, est, risus ultricies libero. Tincidunt at
+              ac convallis arcu nunc fringilla massa fusce adipiscing. Sed hac pellentesque facilisi mi felis ornare
+              mauris. Suspendisse eget malesuada sit nunc, velit, sed enim nam. Est porta mauris faucibus morbi nibh
+              nam duis nec.</p>
+          </div>
+          <div class="second-image">
+            <img src="./images/unsplash_AEaTUnvneik.png" alt="Help the needy">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===The forms to be filled begins here and will include a modal box for 
+      cash and material donation section===-->
+
+    <div class="donation-section">
+      <div class="all-container">
+        <div class="donation-panel">
+          <div class="donation-selection">
+            <a href="#"><button class="cash-button">
+                Cash
+              </button id=""></a>
+            <button id="myBtn" class="material-button">
+              Material
+            </button>
+
+
+            <!--===Modal box===-->
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <!--modal box form-->
+
+                <form action="" method="get" accept-charset="utf-8">
+                  <div class="name-inputs">
+
+                    <div class="name">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="fname" class="inwidth">
+                    </div>
+
+                    <div class="name">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lname" class="inwidth">
+                    </div>
+                  </div>
+
+                  <div class="email">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                  <div class=" amount">
+                    <label for="amount">Address</label>
+                    <input type="text">
+                  </div>
+                  <div class="country-inputs">
+                    <div class="country">
+                      <label for="country-select">Country</label><br>
+                      <input type="text" id="country" name="country" class="inwidth">
+                    </div>
+                    <div class="country">
+                      <label for="city">City</label>
+                      <select type="text" name="city" class="inwidth">
+                        <option value="">-Select City- </option>
+                        <option value="">Port harcourt</option>
+                        <option value="">Ikeja</option>
+                        <option value="">Abeokuta</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="country-code">
+                    <div class="zip-codes">
+                      <label for="state">State / Province</label>
+                      <input type="text">
+                    </div>
+                    <div class="zip-codes">
+                      <label for="">Zip / Postal code</label>
+                      <input type="number">
+                    </div>
+                  </div>
+                  <div class=" amount">
+                    <label for="amount">Donation</label>
+                    <input type="number">
+                  </div>
+                  <button class="donate">Donate</button>
+                </form>
+              </div>
+            </div>
+            <!--===Modal box ends===-->
+          </div>
+
+          <!--Form section begins here-->
+          <form action="" method="get">
+            <div class="name-inputs">
+              <div class="name">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" class="inwidth">
+              </div>
+              <div class="name">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" class="inwidth">
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class=" amount">
+              <label for="amount">Address</label>
+              <input type="text">
+            </div>
+            <div class="country-inputs">
+              <div class="country">
+                <label for="country-select">Country</label>
+                <select name="country-select" class="inwidth" id="">
+                  <option value="">-Select Country-</option>
+                  <option value="">Nigeria</option>
+                </select>
+              </div>
+              <div class="country">
+                <label for="city">City</label>
+                <select type="text" name="country" class="inwidth">
+                  <option value="">-Select City- </option>
+                  <option value="">Port harcourt</option>
+                  <option value="">Ikeja</option>
+                  <option value="">Abeokuta</option>
+                </select>
+              </div>
+            </div>
+            <div class="country-code">
+              <div class="zip-codes">
+                <label for="state">State / Province</label>
+                <input type="text">
+              </div>
+              <div class="zip-codes">
+                <label for="">Zip / Postal code</label>
+                <input type="number">
+              </div>
+            </div>
+            <!--Form section ends here-->
+
+            <!-- Radio input begins here-->
+            <div class="payment-option">
+              <label for="for">Payment</label><br />
+              <div class="radio-button">
+                <div class="radio-input">
+                  <label for="card"><input id="card" type="radio" name="payment" value="card">Card</label>
+                </div>
+                <div class="radio-input">
+                  <label for="flutterwave"><input id="flutterwave" type="radio" name="payment"
+                      value="flutterwave">Flutterwave</label>
+                </div>
+                <div class="radio-input">
+                  <label for="paystack"><input id="paystack" type="radio" name="payment"
+                      value="paystack">Paystack</label>
+                </div>
+                <!--Radio input ends here-->
+
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section designed by Joy begins here -->
+    <footer>
+      <div class="joy-general">
+        <div class="joy-center-div">
+          <div class="JOY-NEWSLETTER-GROUP">
+            <h2>Newsletter</h2>
+            <h3 class="H3-JOY">Get update of our services and offers</h3>
+            <div class="joy-input-div">
+              <input type="Email" id="footer-email" placeholder="Email" />
+              <button class="footer-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <!-- ====START-JOY-NEWSLETTER===== -->
+        <div class="JOY-NEWSLETTER">
+          <div class="JOY-NEWSLETTER-GROUP-1">
+            <h2 class="footer-topic">Newsletter</h2>
+            <h3 class="joy-h3-1">Get update of our services and offers</h3>
+            <div class="joy-input-div">
+              <input type="Email" id="footer-email" placeholder="Email" />
+              <button class="footer-btn">Subscribe</button>
+            </div>
+          </div>
+          <!-- ====END-JOY-NEWSLETTER===== -->
+          <!-- ====START-JOY--QUICKS-LINKS===== -->
+          <div class="JOY-QUICK-LINKS">
+            <h2 class="footer-topic">Quick Links</h2>
+            <a href="#">About us</a>
+            <a href="#">Event</a>
+            <a href="#">Gallery</a>
+          </div>
+          <!-- ====END-JOY--QUICKS-LINKS===== -->
+
+          <!-- ====START-JOY-CONTACT-US======== -->
+          <div class="JOY-CONTACT-US">
+            <h2 class="footer-topic">Contact-us</h2>
+            <div class="CONTACT-JOY">
+              <div class="JOY-CONTACT-GROUP">
+                <div class="joy-icons">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="joy-icon-p">Lagos,Nigeria</p>
+                </div>
+                <div class="joy-icons">
+                  <i class="fa-solid fa-phone"></i>
+                  <p class="joy-icon-p">+2347000087987</p>
+                </div>
+                <div class="joy-icons">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p class="joy-icon-p">Crowdheart@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ======END-JOY-CONTACT-US==== -->
+          <!-- ======START-JOY-FOLLOW-US==== -->
+          <div class="JOY-FOLLOW-US">
+            <h2 class="footer-topic">Follow us</h2>
+            <div class="JOY-FOLLOW-ICONS">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <!-- =====END-OF JOY-FOLLOW-US======== -->
+          <!-- </div> -->
+        </div>
+        <h4 class="JOY-CROWD">&#169; 2022 CrowdHearts. All right served</h4>
+      </div>
+    </footer>
+    <script src="./js/donation.js"></script>
+  </section>
+</body>
+
+</html>
+
+<!--     
+>

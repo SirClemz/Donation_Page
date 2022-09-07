@@ -20,16 +20,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font:inherit;
-}
-html{
-     font-size: 62.5%;   /* setting default font size to 10px, i.e 1rem == 10px */
-     scroll-behavior: smooth;
-}
-body{
-    font-family:  'Open Sans', sans-serif;
-    background: var(--bg-color);
-    font-size: 1.6rem;     /* equals to 16px*/
+
 }
 
 .container{

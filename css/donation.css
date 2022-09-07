@@ -159,6 +159,7 @@ form input{
 .radio-button{
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 .radio-input{
     display: flex;
